@@ -1,0 +1,31 @@
+/* Dashboard container styles */
+  .dashboard-container {
+    position: relative;         
+    min-height: 100vh;          /* Full height of the screen */
+    min-width: 100vw;          
+    background-color: #ffffff;/* Background color */
+    color: black;             /* Text color */
+    padding: 20px;              /* Padding inside the container */
+    box-sizing: border-box;     
+  }
+  
+  /* Logout button styles */
+  .logout-button {
+    position: absolute; 
+    top: 20px;                  /* 20px from the top of the screen */
+    right: 20px;                /* 20px from the right edge of the screen */
+    padding: 10px 20px;         /* Padding inside the button */
+    background-color: #f44336;/* Red button color */
+    color: white;             /* White text on the button */
+    border: none;               /* Remove border around the button */
+    border-radius: 5px;         /* Rounded corners for the button */
+    cursor: pointer;
+    font-size: 16px;             /* Font size inside the button */
+  }
+  
+  /* Content area styles */
+  .dashboard-content {
+    text-align: center;         /* Center the text horizontally */
+    margin-top: 100px;
+  }
+  

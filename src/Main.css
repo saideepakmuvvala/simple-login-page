@@ -1,0 +1,18 @@
+.ui-container {
+    position: relative;         
+    min-height: 100vh;          /* Full height of the screen */
+    min-width: 100vw;
+    background-color: #ffffff;/* Background color */
+    color: black;             /* Text color */
+    padding: 20px;              /* Padding inside the container */
+    box-sizing: border-box;
+}
+
+.ui.menu .item {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.ui.menu .item i.icon {
+  margin-right: 8px;
+}
